@@ -10,7 +10,7 @@
 
 ---
 
-## **🛠 Features**
+## ** Features**
 
 1. **Book Management**
 
@@ -112,4 +112,5 @@ loans.dat            # Serialized loan data
 * **Issue Book:** Checks availability, reduces count, creates loan record.
 * **Return Book:** Increases available count, updates return date, calculates fine.
 * **Search:** Filters in-memory data without affecting files.
+
 
