@@ -67,7 +67,7 @@ public class LibraryApp extends JFrame {
     // Panels
     // -----------------------
     private JPanel buildBooksPanel() {
-        JPanel p = new JPanel(new BorderLayout(8, 8));
+        JPanel p = new JPanel(new BorderLayout(16, 12));
         booksModel = new DefaultTableModel(new String[]{"ID", "Title", "Author", "ISBN", "Total", "Available"}, 0) {
             public boolean isCellEditable(int r, int c) { return false; }
         };
